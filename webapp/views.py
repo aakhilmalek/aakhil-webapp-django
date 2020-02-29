@@ -4,6 +4,8 @@ from django.contrib import messages as msg
 
 # Create your views here.
 
+
+
 def contact_form(request):
     if request.POST:
         name = request.POST['name']
